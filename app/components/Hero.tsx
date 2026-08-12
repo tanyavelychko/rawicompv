@@ -21,9 +21,12 @@ const Hero = () => {
           helping businesses across the UK transition to clean, cost-effective
           renewable energy.
         </p>
-        <button className="mt-10 cursor-pointer bg-gold px-8 py-3 font-sans text-sm font-semibold tracking-widest text-charcoal uppercase transition-opacity hover:opacity-90">
+        <a
+          href="#contact"
+          className="mt-10 bg-gold px-8 py-3 font-sans text-sm font-semibold tracking-widest text-charcoal uppercase transition-opacity hover:opacity-90"
+        >
           Contact Us
-        </button>
+        </a>
       </div>
     </section>
   );
