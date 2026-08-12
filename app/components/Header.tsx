@@ -18,9 +18,12 @@ const Header = () => {
         >
           Services
         </a>
-        <span className="font-sans text-xs font-medium tracking-widest text-frost uppercase md:text-sm">
+        <a
+          href="#contact"
+          className="font-sans text-xs font-medium tracking-widest text-frost uppercase transition-colors hover:text-frost/75 md:text-sm"
+        >
           Contact us
-        </span>
+        </a>
       </nav>
     </header>
   );

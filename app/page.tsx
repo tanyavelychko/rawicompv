@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import OurProcess from "./components/OurProcess";
 import Reviews from "./components/Reviews";
 import Faq from "./components/Faq";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <OurProcess />
         <Reviews />
         <Faq />
+        <Contact />
       </main>
     </>
   );
