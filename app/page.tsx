@@ -1,7 +1,9 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import WhatWeDo from "./components/WhatWeDo";
+import WhyRawicom from "./components/WhyRawicom";
 import Services from "./components/Services";
+import OurProcess from "./components/OurProcess";
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <WhatWeDo />
+        <WhyRawicom />
         <Services />
+        <OurProcess />
       </main>
     </>
   );
