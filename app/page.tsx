@@ -5,6 +5,7 @@ import WhyRawicom from "./components/WhyRawicom";
 import Services from "./components/Services";
 import OurProcess from "./components/OurProcess";
 import Reviews from "./components/Reviews";
+import Faq from "./components/Faq";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <OurProcess />
         <Reviews />
+        <Faq />
       </main>
     </>
   );
