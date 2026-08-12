@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WhatWeDo = () => {
   return (
-    <section className="bg-frost py-16 md:py-24">
+    <section id="about" className="bg-frost py-16 md:py-24">
       <div className="mx-auto max-w-5xl px-4 md:px-10">
         <h2 className="font-heading text-2xl font-bold text-navy md:text-4xl">
           Committed to sustainable energy solutions

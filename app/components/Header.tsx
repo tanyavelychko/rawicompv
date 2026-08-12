@@ -13,6 +13,12 @@ const Header = () => {
       />
       <nav className="flex items-center gap-6 md:gap-8">
         <a
+          href="#about"
+          className="font-sans text-xs font-medium tracking-widest text-frost/75 uppercase transition-colors hover:text-frost md:text-sm"
+        >
+          About Us
+        </a>
+        <a
           href="#services"
           className="font-sans text-xs font-medium tracking-widest text-frost/75 uppercase transition-colors hover:text-frost md:text-sm"
         >
